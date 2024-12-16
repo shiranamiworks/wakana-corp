@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ top_style
+================================================================*/
+#company .main .contents-wrap {
+  margin-top: 1.3rem;
+}
+#company .main .infoes {
+  background: url(../images/common/bg2.png);
+  padding: 0.16rem 0 0.24rem;
+  margin-bottom: 1.46rem;
+}
+#company .main .infoes > section {
+  margin: 0 auto;
+  width: 96%;
+  max-width: 789px;
+}
+#company .main .title {
+  padding-bottom: 0.11rem;
+  font-size: 0.16rem;
+  text-align: center;
+}
+#company .main .company-info {
+  padding-bottom: 0.68rem;
+}
+#company .main .detail-wrap {
+  padding: 0.2rem;
+  background: #fff;
+}
+#company .main .detail-wrap table {
+  width: 100%;
+  border-collapse: collapse;
+}
+#company .main .detail-wrap th {
+  padding: 0.1rem 0.2rem;
+  width: 20%;
+  border-bottom: 1px solid #1d2843;
+  background: #f4f4f4;
+  font-size: 0.13rem;
+  font-weight: normal;
+  vertical-align: middle;
+  text-align: left;
+  line-height: 1.8;
+}
+#company .main .detail-wrap td {
+  padding: 0.1rem 0 0.1rem 0.08rem;
+  border-bottom: 1px solid #1d2843;
+  font-size: 0.13rem;
+  vertical-align: middle;
+  text-align: left;
+}
+#company .main .detail-wrap td .inner {
+  padding-left: 0.16rem;
+  border-left: 1px solid #1d2843;
+  line-height: 1.5;
+}
+#company .main .detail-wrap td .inner span{
+  font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  #company .main .contents-wrap {
+    padding-top: 0.3rem;
+  }
+  #company .main .infoes {
+    margin-bottom: 1.8rem;
+  }
+  #company .main .title {
+    font-size: 0.24rem;
+  }
+  #company .main .detail-wrap table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  #company .main .detail-wrap th {
+    display: block;
+    padding: 0.1rem 0.2rem;
+    width: auto;
+    border-bottom: 1px solid #1d2843;
+    background: #f4f4f4;
+    font-size: 0.16rem;
+    font-weight: normal;
+    vertical-align: middle;
+    text-align: left;
+    line-height: 1.8;
+  }
+  #company .main .detail-wrap td {
+    display: block;
+    padding: 0.1rem 0 0.1rem 0.08rem;
+    border-bottom: 1px solid #1d2843;
+    font-size: 0.16rem;
+    vertical-align: middle;
+    text-align: left;
+  }
+  #company .main .detail-wrap td .inner {
+    padding-left: 0;
+    border-left: 0;
+    line-height: 1.5;
+  }
+  #company .main .detail-wrap td .inner span{
+  font-size: 10px;
+}
+}
+
+/*# sourceMappingURL=company.css.map */

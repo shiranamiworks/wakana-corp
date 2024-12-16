@@ -1,0 +1,336 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ top_style
+================================================================*/
+#inquiry .main .messages {
+  text-align: center;
+}
+#inquiry .main .messages p, #inquiry .main .messages div {
+  font-size: 0.15rem;
+  line-height: 1.8;
+}
+#inquiry .main .contents-wrap {
+  margin-top: 1.57rem;
+  padding-top: 0.4rem;
+}
+#inquiry .main .tel-fax {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+#inquiry .main .tel-fax .title {
+  padding-bottom: 0.19rem;
+  font-size: 0.16rem;
+}
+#inquiry .main .tel-fax .content {
+  padding: 0.37rem 0 0.39rem;
+  background: url(../images/common/bg2.png);
+}
+#inquiry .main .tel-fax .branch-list {
+  margin: 0 auto;
+  max-width: 757px;
+  text-align: left;
+}
+#inquiry .main .tel-fax .branch-list dt {
+  box-sizing: border-box;
+  width: 39.23382%;
+  padding: 0.12rem 0.3rem 0.12rem 0.46rem;
+  border-bottom: 1px solid #000000;
+  float: left;
+  font-weight: bold;
+  font-size: 0.20rem;
+}
+#inquiry .main .tel-fax .branch-list dt.no-border {
+  border-bottom: none;
+}
+#inquiry .main .tel-fax .branch-list dd {
+  box-sizing: border-box;
+  margin-left: 39.23382%;
+  width: 60.76618%;
+  padding: 0.12rem 0;
+  border-bottom: 1px solid #000000;
+  font-weight: bold;
+  font-size: 0.20rem;
+}
+#inquiry .main .tel-fax .branch-list dd.no-border {
+  border-bottom: none;
+}
+#inquiry .main .tel-fax .branch-list dd small {
+  font-weight: normal;
+  font-size: 0.14rem;
+}
+#inquiry .main .tel-fax .branch-list dd p {
+  display: inline-block;
+}
+#inquiry .main .tel-fax .branch-list dd .tel {
+  margin-right: 0.8em;
+}
+#inquiry .main .mail-form .lists {
+  padding-bottom: 0.3rem;
+}
+#inquiry .main .mail-form .lists li {
+  color: #f00;
+  line-height: 1.4;
+}
+#inquiry .main .mail-form header {
+  padding-bottom: 0.35rem;
+  text-align: center;
+}
+#inquiry .main .mail-form header .title {
+  padding-bottom: 0.19rem;
+  font-size: 0.16rem;
+}
+#inquiry .main .mail-form header .text {
+  font-size: 0.14rem;
+  line-height: 1.8;
+}
+#inquiry .main .mail-form .form-box {
+  padding: 0.3rem 0.24rem;
+  margin-bottom: 0.48rem;
+  background: #f4f4f4;
+}
+#inquiry .main .mail-form .form-box .table-wrap {
+  box-sizing: border-box;
+  padding: 0.2rem;
+  float: left;
+  width: 78.9%;
+  background: #fff;
+}
+#inquiry .main .mail-form .form-box .buttons {
+  float: right;
+  width: 18.7%;
+}
+#inquiry .main .mail-form .form-box .buttons input, #inquiry .main .mail-form .form-box .buttons button {
+  margin-bottom: 0.15rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  padding: 0.13rem 0;
+  width: 100%;
+  background: #da4d70;
+  border: none;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s;
+  overflow: hidden;
+}
+#inquiry .main .mail-form .form-box .buttons input:hover, #inquiry .main .mail-form .form-box .buttons button:hover {
+  letter-spacing: 0.015rem;
+  opacity: 0.9;
+}
+#inquiry .main .mail-form .form-box .buttons .reset {
+  background: #1d2843;
+}
+#inquiry .main .mail-form .form-box table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+#inquiry .main .mail-form .form-box th {
+  padding: 0.1rem 0.12rem;
+  width: 35.48796%;
+  font-size: 0.13rem;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid #000000;
+  vertical-align: middle;
+  line-height: 1.6;
+}
+#inquiry .main .mail-form .form-box th.no-border {
+  border-bottom: none;
+}
+#inquiry .main .mail-form .form-box th .caption {
+  display: block;
+  font-size: 0.11rem;
+  font-weight: normal;
+}
+#inquiry .main .mail-form .form-box td {
+  border: none;
+  border-bottom: 1px solid #000000;
+  vertical-align: middle;
+}
+#inquiry .main .mail-form .form-box td.no-border {
+  border-bottom: none;
+}
+#inquiry .main .mail-form .form-box td div {
+  padding: 0 0.13rem;
+  margin: 0.1rem 0;
+  box-sizing: border-box;
+  border-left: 1px solid #000000;
+}
+#inquiry .main .mail-form .form-box td input, #inquiry .main .mail-form .form-box td textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.1rem 0.2rem;
+  line-height: 1.3;
+  border: none;
+  font-size: 13px;
+  background: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  outline: none;
+  transition: all 1s;
+  box-shadow: none;
+  border-radius: 0;
+}
+#inquiry .main .mail-form .form-box td input.color_r, #inquiry .main .mail-form .form-box td textarea.color_r {
+  background-color: #fee;
+}
+#inquiry .main .mail-form .form-box td input:focus, #inquiry .main .mail-form .form-box td textarea:focus {
+  background: #fdfdfd;
+  border: 1px solid #aaa;
+}
+#inquiry .main .mail-form .form-box td input:hover, #inquiry .main .mail-form .form-box td textarea:hover {
+  border: 1px solid #ccc;
+}
+#inquiry .main .mail-form .form-box td textarea {
+  height: 1.97rem;
+  resize: none;
+}
+#inquiry .main .privacy .title {
+  padding-bottom: 0.06rem;
+  font-size: 0.16rem;
+}
+#inquiry .main .privacy .lead {
+  font-size: 0.12rem;
+  line-height: 1.8;
+}
+#inquiry .main .privacy header {
+  padding-bottom: 0.3rem;
+}
+#inquiry .main .privacy .text dd, #inquiry .main .privacy .text dt {
+  font-size: 0.12rem;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 767px) {
+  #inquiry .lower-page-header {
+    position: static;
+    margin-top: 0;
+    padding-top: 0.4rem;
+    padding-bottom: 0;
+  }
+  #inquiry .main .contents-wrap {
+    margin-top: 0;
+  }
+  #inquiry .main .tel-fax {
+    padding-bottom: 0.7rem;
+  }
+  #inquiry .main .tel-fax a {
+    color: #1d2843;
+  }
+  #inquiry .main .tel-fax .tel a {
+    text-decoration: underline;
+  }
+  #inquiry .main .tel-fax .fax a {
+    pointer-events: none;
+  }
+  #inquiry .main .tel-fax .title {
+    font-size: 0.24rem;
+  }
+  #inquiry .main .tel-fax .branch-list {
+    padding: 0 3%;
+  }
+  #inquiry .main .tel-fax .branch-list dt {
+    float: none;
+    width: auto;
+    padding: 0.2rem 0.2rem 0.12rem;
+    border-bottom: 1px solid #b0cfdc;
+    text-align: center;
+    font-size: 0.20rem;
+  }
+  #inquiry .main .tel-fax .branch-list dt.no-border {
+    border-bottom: 1px solid #b0cfdc;
+  }
+  #inquiry .main .tel-fax .branch-list dd {
+    float: none;
+    margin-left: 0;
+    width: auto;
+    padding: 0.12rem 0.2rem 0.2rem;
+    font-weight: bold;
+    font-size: 0.20rem;
+    text-align: center;
+  }
+  #inquiry .main .tel-fax .branch-list dd small {
+    font-weight: normal;
+    font-size: 0.14rem;
+  }
+  #inquiry .main .tel-fax .branch-list dd p {
+    display: inline-block;
+  }
+  #inquiry .main .tel-fax .branch-list dd .tel {
+    margin-right: 0.8em;
+  }
+  #inquiry .main .mail-form header .title {
+    font-size: 0.24rem;
+  }
+  #inquiry .main .mail-form header .text {
+    font-size: 0.18rem;
+  }
+  #inquiry .main .mail-form .form-box {
+    padding: 0.3rem 0.24rem;
+    margin-bottom: 0.48rem;
+  }
+  #inquiry .main .mail-form .form-box .table-wrap {
+    float: none;
+    width: auto;
+    padding-top: 0;
+  }
+  #inquiry .main .mail-form .form-box .buttons {
+    margin-top: 0.15rem;
+    float: none;
+    width: auto;
+  }
+  #inquiry .main .mail-form .form-box .buttons input, #inquiry .main .mail-form .form-box .buttons button {
+    border-radius: 0;
+    -webkit-appearance: none;
+    font-size: 0.24rem;
+  }
+  #inquiry .main .mail-form .form-box table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    padding-top: 0;
+  }
+  #inquiry .main .mail-form .form-box th {
+    padding-top: 0.3rem;
+    padding-bottom: 0;
+    display: block;
+    font-size: 0.22rem;
+    width: auto;
+    border-color: #fff;
+  }
+  #inquiry .main .mail-form .form-box th .caption {
+    font-size: 0.18rem;
+  }
+  #inquiry .main .mail-form .form-box td {
+    padding-top: 0;
+    display: block;
+    font-size: 0.22rem;
+  }
+  #inquiry .main .mail-form .form-box td div {
+    border: none;
+    padding: 0;
+  }
+  #inquiry .main .mail-form .form-box td input, #inquiry .main .mail-form .form-box td textarea {
+    -webkit-appearance: none;
+    font-size: 16px;
+  }
+  #inquiry .main .mail-form .form-box td textarea {
+    height: 3rem;
+  }
+  #inquiry .main .privacy .title {
+    font-size: 0.24rem;
+  }
+  #inquiry .main .privacy .lead {
+    font-size: 0.15rem;
+  }
+  #inquiry .main .privacy .text dd, #inquiry .main .privacy .text dt {
+    font-size: 0.15rem;
+  }
+}
+
+/*# sourceMappingURL=inquiry.css.map */

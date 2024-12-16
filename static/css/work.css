@@ -1,0 +1,421 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ top_style
+================================================================*/
+#work .main .lower-mv {
+  background-image: url(../images/work/bg.png);
+  background-size: cover;
+}
+#work .main .lower-mv .message {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  font-size: 0.33rem;
+}
+#work .main .lower-mv .message .inner {
+  line-height: 1.4;
+}
+#work .main .section-title {
+  padding-bottom: 0.5rem;
+  font-size: 0.26rem;
+  text-align: center;
+}
+#work .main .our-strength {
+  margin-bottom: 1rem;
+  position: relative;
+  background: url(../images/work/bg2.png) no-repeat;
+  background-size: 100% 60%;
+  background-position: 0 60%;
+}
+#work .main .our-strength .section-title {
+  padding-bottom: 0.9rem;
+}
+#work .main .our-strength .image {
+  position: relative;
+  float: left;
+  width: 48%;
+}
+#work .main .our-strength .image img {
+  position: relative;
+  z-index: 3;
+}
+#work .main .our-strength .anime.image:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 2rem;
+  right: 2.5rem;
+  width: 90%;
+  height: 95%;
+  background: rgba(0, 163, 223, 0.58);
+  z-index: 1;
+  transition: all 300ms ease;
+}
+#work .main .our-strength .anime.on.image:after {
+  top: 0.45rem;
+  right: 0.75rem;
+}
+#work .main .our-strength .anime.anime02.image:after {
+  top: 2rem;
+  right: auto;
+  left: 2.5rem;
+}
+#work .main .our-strength .anime.anime02.on.image:after {
+  top: 0.45rem;
+  left: 0.75rem;
+}
+#work .main .our-strength .texts {
+  float: right;
+  width: 46%;
+}
+#work .main .our-strength section {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 0.78rem;
+}
+#work .main .our-strength section header {
+  position: relative;
+  padding-bottom: 0.16rem;
+  text-align: right;
+}
+#work .main .our-strength section header img {
+  margin: 0 0.2rem;
+}
+#work .main .our-strength section h4 {
+  box-sizing: border-box;
+  padding: 0.1rem 0.05rem;
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+  font-size: 0.24rem;
+  line-height: 1.5;
+  background: rgba(255, 255, 255, 0.5);
+}
+#work .main .our-strength section .text {
+  font-size: 0.16rem;
+  line-height: 2;
+}
+#work .main .our-strength section:nth-child(2n+1) header {
+  text-align: left;
+}
+#work .main .our-strength section:nth-child(2n+1) .image {
+  float: right;
+}
+#work .main .our-strength section:nth-child(2n+1) .texts {
+  float: left;
+}
+#work .main .our-strength section:last-child {
+  margin-bottom: 0;
+}
+#work .main .service-wrap {
+  padding: 1.07rem 0 0;
+  background: url(../images/office/bg2.jpg);
+}
+#work .main .graph {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 1.24rem;
+  width: 450px;
+}
+#work .main .graph .texts {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+#work .main .graph .texts li {
+  position: absolute;
+  box-sizing: border-box;
+  font-size: 0.14rem;
+  line-height: 1.3;
+  text-align: center;
+  padding: 0.1rem;
+  transition: all 0.5s;
+}
+#work .main .graph .texts .cond01 {
+  top: 14px;
+  left: 320px;
+  width: 233px;
+  height: 55px;
+  background: url(../images/work/bg00-1.png) no-repeat;
+  margin-top: -30px;
+  opacity: 0;
+}
+#work .main .graph .texts .cond01.on {
+  margin-top: 0px;
+  opacity: 1;
+}
+#work .main .graph .texts .cond02 {
+  top: 220px;
+  left: 390px;
+  width: 243px;
+  height: 58px;
+  background: url(../images/work/bg00-2.png) no-repeat;
+  margin-top: -30px;
+  opacity: 0;
+}
+#work .main .graph .texts .cond02.on {
+  margin-top: 0px;
+  opacity: 1;
+}
+#work .main .graph .texts .cond03 {
+  top: 420px;
+  left: 226px;
+  width: 233px;
+  height: 58px;
+  background: url(../images/work/bg00-3.png) no-repeat;
+  margin-top: -30px;
+  opacity: 0;
+}
+#work .main .graph .texts .cond03.on {
+  margin-top: 0px;
+  opacity: 1;
+}
+#work .main .graph .texts .cond04 {
+  top: 300px;
+  left: -144px;
+  width: 233px;
+  height: 55px;
+  background: url(../images/work/bg00-4.png) no-repeat;
+  margin-top: -30px;
+  opacity: 0;
+}
+#work .main .graph .texts .cond04.on {
+  margin-top: 0px;
+  opacity: 1;
+}
+#work .main .graph .texts .cond05 {
+  top: 60px;
+  left: -130px;
+  width: 233px;
+  height: 55px;
+  background: url(../images/work/bg00-5.png) no-repeat;
+  margin-top: -30px;
+  opacity: 0;
+}
+#work .main .graph .texts .cond05.on {
+  margin-top: 0px;
+  opacity: 1;
+}
+#work .main .services > li {
+  box-sizing: border-box;
+  margin-bottom: 0.4rem;
+  padding: 0.45rem 0 0.2rem;
+  float: left;
+  width: 48.2%;
+  background: rgba(0, 163, 223, 0.6);
+  min-height: 4.4rem;
+  color: #fff;
+  text-align: center;
+}
+#work .main .services > li:nth-child(2n) {
+  float: right;
+}
+#work .main .services > li:nth-child(2n+1) {
+  clear: both;
+}
+#work .main .services > li .name {
+  padding-bottom: 0.2rem;
+  font-size: 0.18rem;
+}
+#work .main .services > li .text {
+  padding: 0 0.3rem 0.6rem;
+  font-size: 0.14rem;
+  line-height: 1.8;
+}
+#work .main .services > li a {
+  font-size: 0.12rem;
+  text-decoration: underline;
+}
+#work .main .services > li.cond01 .text {
+  padding-bottom: 0.1rem;
+}
+#work .main .services > li.cond01 .image {
+  padding-bottom: 0.25rem;
+}
+#work .main .services > li.cond01 .detail {
+  padding: 0.15rem 0.3rem;
+  background: #fff;
+}
+#work .main .services > li.cond01 .detail li {
+  float: left;
+  width: 39%;
+}
+#work .main .services > li.cond01 .detail li:nth-child(2n) {
+  float: right;
+  width: 59%;
+}
+#work .main .services > li.cond01 .detail li img {
+  margin-bottom: 0.1rem;
+}
+#work .main .services > li.cond01 .detail li.detail01 img {
+  margin-bottom: 0.17rem;
+}
+#work .main .services > li.cond02 .text {
+  padding-bottom: 0.3rem;
+}
+#work .main .services > li.cond04 .text {
+  padding-bottom: 0.35rem;
+}
+#work .main .pagetop-wrap {
+  display: block;
+  background: none;
+  background: transparent;
+}
+#work .pagetop-wrap {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #work .main .lower-mv .message {
+    font-size: 0.26rem;
+    font-size: 0.20rem;
+  }
+  #work .main .section-title {
+    font-size: 0.3rem;
+  }
+  #work .main .our-strength {
+    margin-bottom: 0.7rem;
+  }
+  #work .main .our-strength .section-title {
+    padding-bottom: 0.4rem;
+  }
+  #work .main .our-strength .image {
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+  }
+  #work .main .our-strength .image img {
+    width: 100%;
+  }
+  #work .main .our-strength .texts {
+    float: none;
+    width: auto;
+    margin-bottom: 0.3rem;
+  }
+  #work .main .our-strength section {
+    margin-bottom: 0.88rem;
+  }
+  #work .main .our-strength section header img {
+    width: 25%;
+  }
+  #work .main .our-strength section h4 {
+    font-size: 0.24rem;
+  }
+  #work .main .our-strength section .text {
+    font-size: 0.16rem;
+  }
+  #work .main .our-strength section:nth-child(2n+1) .image {
+    float: none;
+  }
+  #work .main .our-strength section:nth-child(2n+1) .texts {
+    float: none;
+  }
+  #work .main .graph {
+    margin: 0 auto;
+    width: 180px;
+    height: 250px;
+  }
+  #work .main .graph .texts li {
+    font-size: 10px;
+  }
+  #work .main .graph .texts .cond01 {
+    top: -16px;
+    left: 141px;
+    width: 103px;
+    height: 51px;
+    background-size: cover;
+  }
+  #work .main .graph .texts .cond02 {
+    top: 60px;
+    left: 142px;
+    width: 103px;
+    height: 51px;
+    background-size: cover;
+  }
+  #work .main .graph .texts .cond03 {
+    top: 170px;
+    left: 96px;
+    width: 93px;
+    height: 52px;
+    background-size: cover;
+  }
+  #work .main .graph .texts .cond04 {
+    top: 115px;
+    left: -64px;
+    width: 123px;
+    height: 52px;
+    background-size: cover;
+  }
+  #work .main .graph .texts .cond05 {
+    top: 10px;
+    left: -60px;
+    width: 103px;
+    height: 51px;
+    background-size: cover;
+  }
+  #work .main .graph .texts .cond05 br {
+    display: none;
+  }
+  #work .main .graph .base {
+    transform: scale(0.4);
+    transform-origin: top left;
+  }
+  #work .main .services > li {
+    box-sizing: border-box;
+    margin-bottom: 0.4rem;
+    padding: 0.45rem 0 0.2rem;
+    float: none;
+    width: auto;
+    min-height: 0;
+  }
+  #work .main .services > li:nth-child(2n) {
+    float: none;
+  }
+  #work .main .services > li .name {
+    padding-bottom: 0.2rem;
+    font-size: 0.24rem;
+  }
+  #work .main .services > li .text {
+    padding: 0 0.3rem 0.6rem;
+    font-size: 0.18rem;
+    line-height: 1.8;
+  }
+  #work .main .services > li a {
+    font-size: 0.12rem;
+    text-decoration: underline;
+  }
+  #work .main .services > li.cond01 .text {
+    padding-bottom: 0.1rem;
+  }
+  #work .main .services > li.cond01 .image {
+    padding-bottom: 0.25rem;
+  }
+  #work .main .services > li.cond01 .detail {
+    padding: 0.15rem 0.3rem;
+    background: #fff;
+  }
+  #work .main .services > li.cond01 .detail li {
+    float: left;
+    width: 35%;
+  }
+  #work .main .services > li.cond01 .detail li:nth-child(2n) {
+    float: right;
+    width: 52%;
+  }
+  #work .main .services > li.cond01 .detail li img {
+    margin-bottom: 0.1rem;
+  }
+  #work .main .services > li.cond02 .text {
+    padding-bottom: 0.3rem;
+  }
+  #work .main .services > li.cond04 .text {
+    padding-bottom: 0.35rem;
+  }
+}
+
+/*# sourceMappingURL=work.css.map */

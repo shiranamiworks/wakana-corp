@@ -1,0 +1,230 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ site_default
+================================================================*/
+/*================================================================
+ common_style
+================================================================*/
+/* ----------------------------------------
+ common-classes 
+*/
+a:hover {
+  opacity: 1;
+}
+
+.more-link {
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+  line-height: 0.8rem;
+  height: 0.8rem;
+  text-align: center;
+  position: relative;
+  z-index: 5;
+  border: 1px solid #1c2843;
+  font-size: 0.26rem;
+}
+.more-link a {
+  font-size: 0.26rem;
+}
+.more-link img {
+  width: 20%;
+}
+
+.common-people-list .inner {
+  padding-top: 0.3rem;
+  padding-bottom: 0rem;
+}
+.common-people-list li {
+  display: block;
+  width: auto;
+  margin: 0 0 0.45rem;
+  text-align: center;
+}
+.common-people-list li img {
+  margin: 0 atuo;
+  width: 80%;
+}
+.common-people-list li a {
+  overflow: visible;
+}
+.common-people-list li .text {
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  bottom: -0.26rem;
+  width: 44.82759%;
+  font-size: 0.14rem;
+}
+.common-people-list li .text .name {
+  font-size: 0.24rem;
+}
+.common-people-list .inner1 {
+  padding: 0;
+  margin-bottom: -0.13rem;
+}
+
+/* 
+ End-common-classes 
+---------------------------------------- */
+/* ----------------------------------------
+ header-style 
+ */
+.all-wrap {
+  padding-top: 40px;
+}
+
+.site-header {
+  position: fixed;
+  margin-top: 0;
+  top: 0;
+  left: 0 !important;
+  width: 100%;
+  height: 40px;
+  background: white;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+.site-header .logo {
+  float: left;
+  padding: 5px 0 5px 3px;
+}
+.site-header .logo img {
+  width: auto;
+  height: 30px;
+}
+.site-header .menu-button {
+  float: right;
+}
+.site-header .menu-button img {
+  width: auto;
+  height: 40px;
+}
+
+/* 
+ End-header-style 
+---------------------------------------- */
+/* ----------------------------------------
+ footer-style 
+ */
+.pagetop-wrap {
+  padding: 1rem 0 0.4rem;
+}
+.pagetop-wrap img {
+  width: auto;
+  height: 40px;
+}
+
+.site-footer {
+  padding: 0.56rem 0 0;
+  position: relative;
+  z-index: 5;
+}
+.site-footer .foot-logo {
+  float: none;
+  width: auto;
+}
+.site-footer .footer-infoes {
+  float: none;
+  width: auto;
+  font-size: 0.24rem;
+}
+.site-footer .footer-contents {
+  float: none;
+  margin-right: 0;
+  width: auto;
+  padding-bottom: 0.82rem;
+  font-size: 0.24rem;
+  line-height: 1.6;
+}
+.site-footer .footer-contents .title {
+  padding-bottom: 0.2rem;
+  margin-bottom: 0.32rem;
+  font-size: 0.30rem;
+}
+.site-footer .footer-contents a, .site-footer .footer-contents p, .site-footer .footer-contents div {
+  font-size: 0.24rem;
+  line-height: 1.68;
+}
+.site-footer .address .tel {
+  padding-top: 0.14rem;
+}
+.site-footer .address .google-map {
+  position: static;
+  margin-top: 0.3rem;
+}
+.site-footer .address .google-map a {
+  display: block;
+  padding: 0.2rem;
+  border: 1px solid #fff;
+  text-align: center;
+}
+.site-footer .address .google-map img {
+  margin-right: 0.2rem;
+}
+.site-footer .sitemap .site-pages > li {
+  padding-bottom: 0.3rem;
+}
+.site-footer .sitemap .site-pages > li:last-child {
+  padding-bottom: 0;
+}
+.site-footer .sitemap .site-pages ul {
+  display: none;
+}
+.site-footer .links li {
+  padding-bottom: 0.3rem;
+}
+.site-footer .copyright {
+  padding: 0.2rem;
+  margin: 0 -3%;
+  color: #fff;
+  background: #10172a;
+  font-size: 0.21rem;
+}
+
+/* 
+ End-footer-style 
+---------------------------------------- */
+/* ----------------------------------------
+ navi-style 
+ */
+.global-navi {
+  top: -200%;
+  margin-left: 4.10rem;
+  width: 100%;
+  height: 100%;
+  padding: 40px 0 0;
+  line-height: 1.8;
+  font-size: 0.167rem;
+  text-align: center;
+  transition: top 0.6s;
+}
+.global-navi.opened {
+  top: 0;
+  margin-left: 0;
+}
+.global-navi .bold {
+  font-size: 0.278rem;
+}
+.global-navi .links {
+  width: 100%;
+  left: auto;
+}
+.global-navi .links > li {
+  padding: 0.48rem 0 0;
+}
+.global-navi .category-name {
+  line-height: 1.8;
+}
+
+/* 
+ End-navi-style 
+---------------------------------------- */
+/*================================================================
+ lower_style
+================================================================*/
+
+/*# sourceMappingURL=smartphone.css.map */

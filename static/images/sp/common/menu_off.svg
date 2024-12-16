@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="135" height="77" viewBox="0 0 135 77">
+  <g id="menu_off" transform="translate(0.332)">
+    <path id="パス_33437" data-name="パス 33437" d="M0,0H135V77H0Z" transform="translate(-0.332)" fill="#da4d70" fill-rule="evenodd"/>
+    <g id="グループ_53558" data-name="グループ 53558" transform="translate(11 -1)">
+      <g id="グループ_53557" data-name="グループ 53557" transform="translate(-1.45)">
+        <path id="パス_33438" data-name="パス 33438" d="M43,21H71v2H43Z" transform="translate(0.117)" fill="#f7f7f7" fill-rule="evenodd"/>
+        <path id="パス_33439" data-name="パス 33439" d="M49,29H64.1v2H49Z" transform="translate(0.118 0)" fill="#f7f7f7" fill-rule="evenodd"/>
+        <path id="パス_33440" data-name="パス 33440" d="M43,37H71v2H43Z" transform="translate(0.117)" fill="#f7f7f7" fill-rule="evenodd"/>
+      </g>
+      <path id="パス_33476" data-name="パス 33476" d="M-15.995,0V-7.12h2.23l1.66,4.89,1.62-4.89H-8.3V0h-1.47V-5.06L-11.525,0h-1.21L-14.5-5.01V0ZM-.585-7.12v1.28h-3.79v1.55h3.48v1.23h-3.48v1.75h3.86V0h-5.41V-7.12ZM1.555,0V-7.12h1.59l2.93,4.77V-7.12h1.5V0H6.015L3.065-4.78V0Zm14.47-7.12v4.28A3.049,3.049,0,0,1,15.29-.585,3.159,3.159,0,0,1,12.995.14,3.2,3.2,0,0,1,10.67-.6,3.06,3.06,0,0,1,9.925-2.86V-7.12h1.56v4.26a2.075,2.075,0,0,0,.33,1.29,1.451,1.451,0,0,0,1.2.42,1.333,1.333,0,0,0,1.145-.42,2.2,2.2,0,0,0,.305-1.29V-7.12Z" transform="translate(55.663 58)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

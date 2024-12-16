@@ -1,0 +1,352 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ top_style
+================================================================*/
+#people .main .people-movie {
+  margin-bottom: 1.71rem;
+  text-align: center;
+}
+#people .main .people-movie .head-text {
+  padding-bottom: 0.4rem;
+}
+#people .main .people-movie a {
+  display: block;
+  padding: 2rem 3% 1.4rem;
+}
+#people .main .people-movie .banner {
+  background: url(../images/people/common/bg2.png);
+  background-size: cover;
+  text-align: center;
+}
+
+/*
+ * people-top
+**/
+.people-top .main .lower-mv {
+  background: url(../images/people/archive/bg1.png);
+  background-size: cover;
+}
+.people-top .main .lower-mv .message {
+  font-size: 0.275rem;
+}
+.people-top .main .lower-mv .message .big-sub {
+  padding-bottom: 0.19rem;
+}
+.people-top .main .page-leads {
+  padding-bottom: 0.83rem;
+  text-align: center;
+}
+.people-top .main .page-leads .title {
+  padding-bottom: 0.26rem;
+  font-size: 0.26rem;
+}
+.people-top .main .page-leads .text {
+  font-size: 0.14rem;
+  line-height: 2.2;
+}
+.people-top .main .common-people-list01 {
+  position: relative;
+  margin-top: 1.75rem;
+  background: url(../images/common/bg2.png);
+}
+
+/*
+ * people-detail
+ **/
+#people.people-detail .main {
+  position: relative;
+}
+#people.people-detail .main .banner-wrap {
+  position: relative;
+  margin-top: 1.75rem;
+  background: url(../images/people/common/detail-bg02.png) repeat 0 0;
+}
+#people.people-detail .main .banner-wrap .people-movie {
+  margin-bottom: 1.1rem;
+}
+#people.people-detail .main .day-off {
+  position: relative;
+}
+#people.people-detail .main .day-off .bg-up {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 164px;
+}
+#people.people-detail .main .day-off .bg img {
+  margin-top: -4%;
+  width: 100%;
+  height: auto;
+}
+#people.people-detail .main .day-off .wrap {
+  z-index: 1;
+}
+#people.people-detail .main .common-people-list {
+  background: none;
+}
+#people.people-detail .main .common-people-list .common-lined-headline01 {
+  letter-spacing: 0.016rem;
+}
+#people.people-detail .main .common-people-list .head-text {
+  text-align: center;
+  letter-spacing: 0.026rem;
+}
+#people.people-detail .main .common-people-list .inner {
+  padding-top: 0.62rem;
+}
+#people.people-detail .main .common-people-list .inner li {
+  width: 21.2%;
+  margin-right: 2.5%;
+}
+#people.people-detail .main .common-people-list .inner li:last-child {
+  margin: 0;
+}
+#people.people-detail .main .banner-wrap {
+  margin-top: 0.9rem;
+}
+#people.people-detail .main .banner-wrap .people-movie .common-lined-headline01 {
+  padding-top: 0.92rem;
+  letter-spacing: 0.016rem;
+}
+#people.people-detail .main .banner-wrap .people-movie .head-text {
+  padding-bottom: 0.4rem;
+  letter-spacing: 0.026rem;
+}
+/*
+#people.people-detail .main .banner-wrap .recruit {
+  margin-top: 0;
+  padding: 0.7rem 0 0.76rem;
+  background: url(../images/top/recruit-bg.png);
+  background-size: cover;
+  text-align: center;
+}
+*/
+#people.people-detail .main .banner-wrap .recruit {
+  margin-top: 0.97rem;
+  padding: 0.7rem 0 0.76rem;
+  background: url(../images/top/recruit-bg.png);
+  background-size: cover;
+  text-align: center;
+}
+#people.people-detail .main .banner-wrap .recruit .link img{
+  max-width: 700px;
+}
+#people.people-detail .main .banner-wrap .recruit .btn {
+  display: inline-block;
+  margin-top: 30px;
+/*  margin-right: 50px;  */
+}
+#people.people-detail .main .banner-wrap .recruit .btn.more-link {
+  min-width: 380px;
+  height: 62px;
+}
+#people.people-detail .main .banner-wrap .recruit .btn.more-link rect{
+  stroke: #fff;
+}
+#people.people-detail .main .banner-wrap .recruit .btn.more-link svg{
+  width: 100%;
+  height: 62px;
+}
+#people.people-detail .main .banner-wrap .recruit .btn a{
+  color: #fff;
+  padding: 10px 30px;
+/*  border: 1px solid;*/
+  font-size: 20px;
+  min-width: 230px;
+  display: block;
+}
+#people.people-detail .main .banner-wrap .recruit .btn.btn02 {
+  margin-right: auto;
+}
+
+#people.people-detail.detail01 .lower-mv {
+  background: url(../images/people/detail01/bg1.png);
+  background-size: cover;
+}
+#people.people-detail.detail02 .lower-mv {
+  background: url(../images/people/detail02/bg1.png);
+  background-size: cover;
+}
+#people.people-detail.detail03 .lower-mv {
+  background: url(../images/people/detail03/bg1.png);
+  background-size: cover;
+}
+#people.people-detail.detail04 .lower-mv {
+  background: url(../images/people/detail04/bg1.png);
+  background-size: cover;
+}
+#people.people-detail.detail05 .lower-mv {
+  background: url(../images/people/detail05/bg1.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+  #people .main .people-movie {
+    margin-bottom: 0.49rem;
+    text-align: center;
+  }
+  #people .main .people-movie .head-text {
+    padding-bottom: 0.4rem;
+  }
+  #people .main .people-movie a {
+    display: block;
+    padding: 0.6rem 3% 1.4rem;
+  }
+  #people .main .people-movie .banner {
+    position: relative;
+    padding: 0;
+    background: none;
+    background: tansparent;
+    text-align: center;
+  }
+  #people .main .people-movie .banner img {
+    width: 100%;
+    height: auto;
+  }
+  #people .main .people-movie .banner .text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 80%;
+  }
+
+  /*
+   * people-top
+  **/
+  .people-top .main .lower-mv {
+    background: url(../images/people/archive/bg1.png);
+    background-size: cover;
+  }
+  .people-top .main .lower-mv .message {
+    padding: 0.2rem 0.2rem;
+    font-size: 0.24rem;
+  }
+  .people-top .main .lower-mv .message .big-sub {
+    padding-bottom: 0.15rem;
+  }
+  .people-top .main .lower-mv .bg img {
+    width: 100%;
+  }
+  .people-top .main .page-leads {
+    padding-bottom: 0.98rem;
+    text-align: center;
+  }
+  .people-top .main .page-leads .title {
+    padding-bottom: 0.54rem;
+    font-size: 0.3rem;
+  }
+  .people-top .main .page-leads .text {
+    font-size: 0.18rem;
+    line-height: 2.2;
+  }
+  .people-top .main .common-people-list01 {
+    position: relative;
+    margin-top: 1.75rem;
+    background: url(../images/common/bg2.png);
+  }
+
+  /*
+   * people-detail
+  **/
+  #people.people-detail .main {
+    position: relative;
+  }
+  #people.people-detail .main .banner-wrap {
+    position: relative;
+    margin-top: 1.75rem;
+    background: url(../images/sp/people/common/detail-bg02.png) repeat 0 0;
+  }
+  #people.people-detail .main .banner-wrap .people-movie {
+    margin-bottom: 1.1rem;
+  }
+  #people.people-detail .main .common-people-list {
+    background: none;
+  }
+  #people.people-detail .main .common-people-list .common-lined-headline01 {
+    padding-top: 0.9rem;
+    letter-spacing: 0.016rem;
+  }
+  #people.people-detail .main .common-people-list .head-text {
+    text-align: center;
+    letter-spacing: 0.026rem;
+  }
+  #people.people-detail .main .common-people-list .inner {
+    padding-top: 0.62rem;
+  }
+  #people.people-detail .main .common-people-list .inner li {
+    width: 100%;
+    margin-right: 0;
+  }
+  #people.people-detail .main .banner-wrap {
+    margin-top: 0.9rem;
+  }
+  #people.people-detail .main .banner-wrap .people-movie .head-text {
+    padding-bottom: 0.4rem;
+    letter-spacing: 0.026rem;
+  }
+  #people.people-detail .main .banner-wrap .people-movie a {
+    padding: 0.3rem 3% 1rem;
+  }
+/*
+  #people.people-detail .main .banner-wrap .recruit {
+    margin-top: 0;
+    padding: 0;
+    background: none;
+    background: transparent;
+  }
+*/
+  #people.people-detail .main .banner-wrap .recruit {
+    margin-top: 0;
+    padding: 0;
+    background: none;
+    background: transparent;
+  }
+  #people.people-detail .main .banner-wrap .recruit .btn {
+    margin-right: auto;
+  }
+  #people.people-detail .main .banner-wrap .recruit .image {
+    display: block;
+    margin-bottom: 0.24rem;
+    width: 100%;
+  }
+  #people.people-detail .main .banner-wrap .recruit .text {
+    margin-bottom: 0.38rem;
+  }
+  #people.people-detail .main .banner-wrap .recruit .more-link {
+    margin-top: 10px;
+  }
+  #people.people-detail .main .banner-wrap .recruit .image {
+    display: block;
+    margin: 0 auto 0.24rem;
+  }
+  #people.people-detail .main .banner-wrap .recruit .text {
+    margin-bottom: 0.38rem;
+  }
+  #people.people-detail.detail01 .lower-mv {
+    background: url(../images/sp/people/detail01/bg1.png);
+    background-size: cover;
+  }
+  #people.people-detail.detail02 .lower-mv {
+    background: url(../images/sp/people/detail02/bg1.png);
+    background-size: cover;
+  }
+  #people.people-detail.detail03 .lower-mv {
+    background: url(../images/sp/people/detail03/bg1.png);
+    background-size: cover;
+  }
+  #people.people-detail.detail04 .lower-mv {
+    background: url(../images/sp/people/detail04/bg1.png);
+    background-size: cover;
+  }
+  #people.people-detail.detail05 .lower-mv {
+    background: url(../images/sp/people/detail05/bg1.png);
+    background-size: cover;
+  }
+}
+
+/*# sourceMappingURL=people.css.map */

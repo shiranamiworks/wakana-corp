@@ -1,0 +1,571 @@
+@charset "UTF-8";
+/* 
+  css設定 @charsetが消されるsass仕様へのハック用コメントです。削除しないでください。新規作成時も必須！
+ */
+/*================================================================
+ top_style
+================================================================*/
+@keyframes slide {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -3416px;
+  }
+}
+@keyframes slide_sp {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -1708px;
+  }
+}
+@keyframes map_dots {
+  0% {
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+  }
+  40% {
+    width: 24px;
+    height: 24px;
+    opacity: 1;
+  }
+  80% {
+    width: 12px;
+    height: 12px;
+    border-color: rgba(13, 48, 143, 0.5);
+    opacity: 0;
+  }
+}
+#office .main .lower-mv {
+  background-image: url(../images/office/bg.png);
+  background-size: cover;
+}
+#office .main .lower-mv .message {
+  padding: 0;
+}
+#office .main .map-wrap {
+  position: relative;
+  max-width: 708px;
+  margin-bottom: 0.59rem;
+}
+#office .main .map-wrap .brunches {
+  position: absolute;
+  height: 100%;
+  z-index: 2;
+}
+#office .main .map-wrap .dot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8px;
+}
+#office .main .map-wrap .dot img {
+  width: 0px;
+  opacity: 0;
+  transition: opacity 0.2s,width 0.2s;
+  transition-delay: 0.3s;
+}
+#office .main .map-wrap .dot:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  border: 2px solid rgba(13, 48, 143, 0.5);
+  box-shadow: 0 0 4px #0d308f, 0 0 3px rgba(13, 48, 143, 0.8) inset;
+  border-radius: 50%;
+}
+#office .main .map-wrap .dot:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0px;
+  height: 0px;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  border: 1px solid #fff;
+  box-shadow: 0 0 4px #0d308f, 0 0 3px rgba(13, 48, 143, 0.8) inset;
+  border-radius: 50%;
+}
+#office .main .map-wrap .dot.on img {
+  width: 100%;
+  opacity: 1;
+}
+#office .main .map-wrap .dot.on:before {
+  animation-name: map_dots;
+  animation-duration: 0.7s;
+  animation-delay: 0.15s;
+}
+#office .main .map-wrap .dot.on:after {
+  animation-name: map_dots;
+  animation-duration: 0.8s;
+}
+#office .main .map-wrap .circle, #office .main .map-wrap .line {
+  position: absolute;
+  top: 100%;
+  left: 0;
+}
+#office .main .map-wrap .line .inner {
+  transition: width 1s;
+}
+#office .main .map-wrap .line .inner.on {
+  width: 100%;
+}
+#office .main .map-wrap .circle {
+  z-index: 4;
+}
+#office .main .map-wrap .circle .inner {
+  transition: width 0.5s;
+}
+#office .main .map-wrap .circle .inner.on {
+  width: 100%;
+}
+#office .main .map-wrap .tokyo {
+  left: 60%;
+  width: 40%;
+}
+#office .main .map-wrap .tokyo .dot {
+  top: 68.7%;
+  left: 15.95%;
+}
+#office .main .map-wrap .tokyo .circle {
+  top: 50.3%;
+  left: 45.95%;
+  width: 43.8%;
+}
+#office .main .map-wrap .tokyo .circle img {
+  width: 124px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .tokyo .line {
+  top: 64.7%;
+  left: 21.95%;
+  width: 34.8%;
+}
+#office .main .map-wrap .tokyo .line img {
+  width: 99px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .nagoya {
+  left: 30%;
+  width: 30%;
+}
+#office .main .map-wrap .nagoya .dot {
+  top: 73%;
+  left: 73.74%;
+}
+#office .main .map-wrap .nagoya .circle {
+  top: 56.3%;
+  left: 17.95%;
+  width: 34%;
+}
+#office .main .map-wrap .nagoya .circle img {
+  width: 72px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .nagoya .line {
+  top: 63.5%;
+  left: 45.95%;
+  width: 28.8%;
+}
+#office .main .map-wrap .nagoya .line img {
+  width: 61px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .osaka {
+  left: 30%;
+  width: 30%;
+}
+#office .main .map-wrap .osaka .dot {
+  top: 76.2%;
+  left: 35.6%;
+}
+#office .main .map-wrap .osaka .circle {
+  top: 77%;
+  left: 59.95%;
+  width: 34%;
+}
+#office .main .map-wrap .osaka .circle img {
+  width: 72px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .osaka .line {
+  top: 77.5%;
+  left: 37.95%;
+  width: 26.8%;
+}
+#office .main .map-wrap .osaka .line img {
+  width: 57px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .fukuoka {
+  left: -4%;
+  width: 30%;
+}
+#office .main .map-wrap .fukuoka .dot {
+  top: 82.2%;
+  left: 55.6%;
+}
+#office .main .map-wrap .fukuoka .circle {
+  top: 81%;
+  left: 0%;
+  width: 34%;
+}
+#office .main .map-wrap .fukuoka .circle img {
+  width: 72px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .fukuoka .line {
+  top: 82.5%;
+  left: 32.95%;
+  width: 23.8%;
+}
+#office .main .map-wrap .fukuoka .line img {
+  width: 57px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .okinawa {
+  left: -1%;
+  width: 30%;
+}
+#office .main .map-wrap .okinawa .dot {
+  top: 67.3%;
+  left: 46.6%;
+}
+#office .main .map-wrap .okinawa .circle {
+  top: 58.8%;
+  left: -0.05%;
+  width: 34%;
+}
+#office .main .map-wrap .okinawa .circle img {
+  width: 72px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .okinawa .line {
+  top: 66.5%;
+  left: 22.95%;
+  width: 26.8%;
+}
+#office .main .map-wrap .okinawa .line img {
+  width: 56px;
+  max-width: inherit;
+  max-width: auto;
+}
+#office .main .map-wrap .inner {
+  width: 0;
+  overflow: hidden;
+}
+#office .main .slide {
+  ovetrflow: hidden;
+}
+#office .main .slide .inner {
+  animation-name: slide;
+  animation-duration: 72s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  position: relative;
+  width: 6832px;
+}
+#office .main .brunch-information {
+  padding: 1.07rem 0 0;
+  background: url(../images/office/bg2.jpg);
+}
+#office .main .brunch-information ul {
+  margin: 0 auto 0.5rem;
+  width: 96%;
+  max-width: 904px;
+}
+#office .main .brunch-information ul li {
+  box-sizing: border-box;
+  padding: 0.25rem 0.15rem;
+  margin-bottom: 0.4rem;
+  width: 49%;
+  background: #fff;
+  border: 9px solid #f1f0f0;
+  float: left;
+  color: #1c2843;
+}
+#office .main .brunch-information ul li:nth-child(2n) {
+  float: right;
+}
+#office .main .brunch-information ul li:nth-child(2n+1) {
+  clear: both;
+}
+#office .main .brunch-information ul li .name {
+  padding-left: 0.07rem;
+  margin-bottom: 0.2rem;
+  border-left: 3px solid #1c2843;
+  font-size: 0.2rem;
+  line-height: 1.6;
+}
+#office .main .brunch-information ul li .tel {
+  padding-left: 0.32rem;
+  min-height: 19px;
+  background: url(../images/office/icon-tel.svg) no-repeat center left;
+  font-size: 0.14rem;
+  line-height: 1.6;
+  margin-bottom: 0.15rem;
+}
+#office .main .brunch-information ul li .address {
+  padding-left: 0.32rem;
+  min-height: 26px;
+  background: url(../images/office/icon-house.svg) no-repeat center left;
+  font-size: 0.14rem;
+  line-height: 1.6;
+  margin-bottom: 0.37rem;
+}
+#office .main .brunch-information ul li .map-link {
+/*  padding-left: 0.22rem;*/
+  min-height: 11px;
+/*  background: url(../images/office/icon1.png) no-repeat center left;*/
+  font-size: 0.14rem;
+  line-height: 1.6;
+  margin-bottom: 0.1rem;
+}
+#office .main .brunch-information ul li .map-link a{
+  text-decoration: underline;
+}
+#office .main .brunch-information ul li .area {
+  display: table;
+  margin-bottom: 0.3rem;
+  min-height: 44px;
+  width: 100%;
+}
+#office .main .brunch-information ul li .area dt {
+  display: table-cell;
+  width: 20%;
+  font-size: 0.14rem;
+  text-align: center;
+  vertical-align: middle;
+}
+#office .main .brunch-information ul li .area dt .inner {
+  display: inline-block;
+  padding: 0.1rem 0;
+  width: 100%;
+  border: 1px solid #1c2843;
+  line-height: 1.2;
+}
+#office .main .brunch-information ul li .area dd {
+  padding-left: 0.2rem;
+  display: table-cell;
+  font-size: 0.14rem;
+  line-height: 1.6;
+  vertical-align: middle;
+}
+#office .main .brunch-information ul li .image {
+  border-top: 1px solid #e9e9e9;
+  padding-top: 0.1rem;
+}
+#office .main .brunch-information ul li.okinawa .name {
+  margin-bottom: 0.57rem;
+}
+#office .main .pagetop-wrap {
+  display: block;
+  background: none;
+  background: transparent;
+}
+#office .pagetop-wrap {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #office .main .map-wrap {
+    position: relative;
+    max-width: 300px;
+  }
+  #office .main .map-wrap .tokyo {
+    left: 60%;
+    width: 40%;
+  }
+  #office .main .map-wrap .tokyo .dot {
+    top: 68.7%;
+    left: 15.95%;
+  }
+  #office .main .map-wrap .tokyo .circle {
+    top: 50.3%;
+    left: 45.95%;
+    width: 43.8%;
+  }
+  #office .main .map-wrap .tokyo .circle img {
+    width: 53px;
+  }
+  #office .main .map-wrap .tokyo .line {
+    top: 64.7%;
+    left: 21.95%;
+    width: 34.8%;
+  }
+  #office .main .map-wrap .tokyo .line img {
+    width: 42px;
+  }
+  #office .main .map-wrap .nagoya {
+    left: 30%;
+    width: 30%;
+  }
+  #office .main .map-wrap .nagoya .dot {
+    top: 73%;
+    left: 73.74%;
+  }
+  #office .main .map-wrap .nagoya .circle {
+    top: 56.3%;
+    left: 17.95%;
+    width: 34%;
+  }
+  #office .main .map-wrap .nagoya .circle img {
+    width: 31px;
+  }
+  #office .main .map-wrap .nagoya .line {
+    top: 63.5%;
+    left: 45.95%;
+    width: 28.8%;
+  }
+  #office .main .map-wrap .nagoya .line img {
+    width: 26px;
+  }
+  #office .main .map-wrap .osaka {
+    left: 30%;
+    width: 30%;
+  }
+  #office .main .map-wrap .osaka .dot {
+    top: 76.2%;
+    left: 35.6%;
+  }
+  #office .main .map-wrap .osaka .circle {
+    top: 77%;
+    left: 59.95%;
+    width: 34%;
+  }
+  #office .main .map-wrap .osaka .circle img {
+    width: 31px;
+  }
+  #office .main .map-wrap .osaka .line {
+    top: 77.5%;
+    left: 37.95%;
+    width: 26.8%;
+  }
+  #office .main .map-wrap .osaka .line img {
+    width: 24px;
+  }
+  #office .main .map-wrap .fukuoka {
+    left: -4%;
+    width: 30%;
+  }
+  #office .main .map-wrap .fukuoka .dot {
+    top: 81.2%;
+    left: 51.6%;
+  }
+  #office .main .map-wrap .fukuoka .circle {
+    top: 81%;
+    left: 0%;
+    width: 34%;
+  }
+  #office .main .map-wrap .fukuoka .circle img {
+    width: 31px;
+  }
+  #office .main .map-wrap .fukuoka .line {
+    top: 81.5%;
+    left: 32.95%;
+    width: 23.8%;
+  }
+  #office .main .map-wrap .fukuoka .line img {
+    width: 24px;
+  }
+  #office .main .map-wrap .okinawa {
+    left: -1%;
+    width: 30%;
+  }
+  #office .main .map-wrap .okinawa .dot {
+    top: 67.3%;
+    left: 46.6%;
+  }
+  #office .main .map-wrap .okinawa .circle {
+    top: 58.8%;
+    left: -0.05%;
+    width: 34%;
+  }
+  #office .main .map-wrap .okinawa .circle img {
+    width: 31px;
+  }
+  #office .main .map-wrap .okinawa .line {
+    top: 66.5%;
+    left: 22.95%;
+    width: 26.8%;
+  }
+  #office .main .map-wrap .okinawa .line img {
+    width: 24px;
+  }
+  #office .main .slide {
+    animation-name: slide_sp;
+  }
+  #office .main .slide .inner {
+    width: 5124px;
+  }
+  #office .main .slide .inner img {
+    width: 1708px;
+  }
+  #office .main .brunch-information ul {
+    margin: 0 auto 0.1rem;
+  }
+  #office .main .brunch-information ul li {
+    margin-bottom: 0.4rem;
+    width: auto;
+    float: none;
+  }
+  #office .main .brunch-information ul li:nth-child(2n) {
+    float: none;
+  }
+  #office .main .brunch-information ul li:nth-child(2n+1) {
+    clear: both;
+  }
+  #office .main .brunch-information ul li .name {
+    font-size: 0.30rem;
+  }
+  #office .main .brunch-information ul li .tel {
+    padding-left: 32px;
+    font-size: 0.22rem;
+  }
+  #office .main .brunch-information ul li .tel a {
+    color: #1c2843;
+    text-decoration: underline;
+  }
+  #office .main .brunch-information ul li .address {
+    padding-left: 32px;
+    font-size: 0.22rem;
+  }
+  #office .main .brunch-information ul li .map-link {
+/*    padding-left: 22px;*/
+/*    font-size: 0.18rem;*/
+      font-size: 0.22rem;
+  }
+  #office .main .brunch-information ul li .area {
+    min-height: 0;
+  }
+  #office .main .brunch-information ul li .area dt {
+    font-size: 0.22rem;
+  }
+  #office .main .brunch-information ul li .area dd {
+    font-size: 0.22rem;
+  }
+  #office .main .brunch-information ul li.okinawa .name {
+    margin-bottom: 0.2rem;
+  }
+}
+
+/*# sourceMappingURL=office.css.map */
