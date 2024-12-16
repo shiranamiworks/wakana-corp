@@ -1,0 +1,36 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	business.css
+	
+===================================================================*/
+
+#business{
+}
+
+#business #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#business #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#business #container #main{
+	width:940px;
+}
+
+#business #container .business_box{
+	width:460px;
+}
+#business #container .business_box .text{
+	background-color:#fff;
+	margin:0 0 1px;
+}
+#business #container .business_box .text p{
+	margin:0 20px;
+	padding:20px 0;
+}

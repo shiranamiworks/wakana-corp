@@ -1,0 +1,76 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	inquiry.css
+	
+===================================================================*/
+
+#inquiry{
+}
+
+#inquiry #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#inquiry #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#inquiry #container #main{
+	width:940px;
+}
+
+#inquiry #container #tel{
+	width:856px;
+	margin:0 auto;
+	padding:40px 0;
+}
+
+#inquiry #inquiry_form{
+	width:856px;
+	margin:0 auto;
+	padding:40px 0;
+}
+#inquiry #inquiry_table{
+	width:685px;
+}
+#inquiry #inquiry_table th{
+	color:#fff;
+	width:40%;
+	background:url(../../img/inquiry/inquiry_table_th_bg.gif) left top;
+	padding:10px;
+	border-bottom:1px solid #002066;
+	font-weight:normal;
+	text-align:left;
+	vertical-align:middle;
+}
+#inquiry #inquiry_table td{
+	width:60%;
+	padding:10px;
+	border-bottom:1px solid #002066;
+	text-align:left;
+	vertical-align:middle;
+}
+#inquiry #inquiry_table td input{
+	width:95%;
+	padding:5px;
+}
+#inquiry #inquiry_table td textarea{
+	width:95%;
+	height:124px;
+	padding:5px;
+}
+
+#inquiry  #inquiry_btn{
+	width:151px;
+}
+#inquiry #inquiry_btn button{
+	border:none;
+	margin:0;
+	padding:0;
+	background:none;
+	cursor:pointer;
+}

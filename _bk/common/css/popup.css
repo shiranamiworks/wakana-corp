@@ -1,0 +1,74 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	popup.css
+	
+===================================================================*/
+
+#popup{
+}
+
+#popup #header{
+	width:100%;
+	height:99px;
+	margin-bottom:30px;
+	border-bottom:1px solid #736902;
+}
+
+#popup #header #header_inner{
+	width:720px;
+	margin:0 auto;
+	position:relative;
+}
+#popup #header #header_inner #logo{
+	font-size:77%;
+	position:absolute;
+	top:37px;
+	left:23px;
+}
+#popup #header #header_inner h1{
+	color:#d5d5d5;
+	font-size:77%;
+	margin:8px 0 0 23px;
+}
+
+#footer{
+	margin-top:30px;
+}
+#footer #foot_body{
+	width:720px;
+	margin:0 auto;
+	position:relative;
+}
+#popup #footer #foot_body #logo_01{
+	left:69px;
+}
+#popup #footer #foot_body #logo_02{
+	left:340px;
+}
+
+#popup #wrapper{
+	width:640px;
+}
+
+#popup #wrapper #page_title{
+	margin-bottom:30px;
+	text-align:center;
+}
+
+#popup #wrapper #popup_util{
+	margin-top:30px;
+	text-align:center;
+}
+#popup #wrapper #popup_util li{
+	display:inline;
+}
+
+/*==================================================================
+	map
+===================================================================*/
+.map #adress{
+	margin:20px 20px 0;
+}
+

@@ -1,0 +1,196 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	common.css
+	
+===================================================================*/
+
+body{
+	color:#231815;
+	width:100%;
+	background:url(../img/body_bg.gif) left top repeat-x #0062b1;
+}
+
+sup{
+	font-size:77%;
+}
+
+.white{
+	color:#fff;
+}
+
+
+/*==================================================================
+	link
+===================================================================*/
+a{
+	color:#0060ae;
+	text-decoration:underline;
+}
+a:hover{
+	color:#0060ae;
+	text-decoration:none;
+}
+
+
+/*==================================================================
+	header
+===================================================================*/
+
+#header{
+	width:960px;
+	height:108px;
+	margin:0 auto;
+	position:relative;
+}
+
+#header #logo{
+	font-size:77%;
+	position:absolute;
+	top:29px;
+	left:79px;
+}
+#header h1{
+	color:#fff;
+	font-size:77%;
+	position:absolute;
+	top:5px;
+	left:40px;
+}
+
+#header #hd_info{
+	position:absolute;
+	top:0;
+	left:648px;
+	z-index:999;
+}
+#header #hd_info_btn{
+	position:absolute;
+	top:8px;
+	left:855px;
+	z-index:999;
+}
+
+/*==================================================================
+	gnavi
+===================================================================*/
+
+#gnavi{
+	width:621px;
+	height:66px;
+	margin:0 0 0 339px;
+	padding:21px 0 0 0;
+}
+
+#gnavi ul{
+	font-size:0;
+	line-height:0;
+}
+#gnavi ul li{
+	float:left;
+	width:124px;
+}
+#gnavi ul li#btn_staff{
+	width:125px;
+}
+
+
+/*==================================================================
+	footerNavi
+===================================================================*/
+#pagetop{
+	width:940px;
+	margin:40px auto 0;
+	text-align:right;
+}
+
+#footer_navi{
+	width:100%;
+	margin:10px 0 0;
+	padding:10px 0;
+	background-color:#fff;
+	text-align:center;
+}
+
+#footer_navi ul li{
+	display:inline;
+	padding:0 5px;
+	border-right:1px solid #0060ae;
+	font-size:85%;
+}
+#footer_navi ul li.first_child{
+	padding-left:0;
+}
+#footer_navi ul li.last_child{
+	padding-right:0;
+	border-right:none;
+}
+
+
+/*==================================================================
+	footer
+===================================================================*/
+
+#footer{
+	width:960px;
+	margin:20px auto 0;
+}
+
+#footer #foot_body{
+	width:660px;
+	margin:0 auto;
+}
+#footer #foot_body div{
+	float:left;
+}
+#footer #foot_body #ft_logo{
+}
+#footer #foot_body #ft_address{
+}
+#footer #foot_body #ft_info{
+	width:132px;
+	height:26px;
+	padding:16px 0 0 20px;
+	background:url(../img/footer_info.png) left top no-repeat;
+}
+
+#footer #copyright{
+	color:#fff;
+	width:960px;
+	height:50px;
+	margin:20px auto 0;
+	padding:20px 0 0;
+	background:url(../img/footer_bg.png) left top no-repeat;
+	font-size:85%;
+	text-align:center;
+}
+	
+
+/*==================================================================
+	contents
+===================================================================*/
+#wrapper{
+	width:960px;
+	margin:0 auto;
+	font-size:93%;
+	line-height:1.5;
+}
+
+
+/* Text Box Style */
+.textbox_w940{
+	background:url(../img/txtbox_w940.png) left top no-repeat;
+}
+
+.textbox_w681{
+	background:url(../img/txtbox_w681.png) left top no-repeat;
+}
+
+.textbox_w492{
+	background:url(../img/txtbox_w492.png) left top no-repeat;
+}
+
+.textbox_bottom{
+	line-height:1;
+}

@@ -1,0 +1,105 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	company.css
+	
+===================================================================*/
+
+#company{
+}
+
+#company #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#company #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#company #container #main{
+	width:681px;
+}
+
+#company #container #first_block .textbox_w681{
+	padding:40px;
+	text-align:center;
+}
+
+#company #container #second_block .textbox_w681,
+#company #container #third_block .textbox_w681{
+	padding:42px 22px;
+}
+#company #container #second_block #summary,
+#company #container #third_block #history{
+	width:637px;
+}
+#company #container #second_block #summary th,
+#company #container #third_block #history th{
+	color:#0062b1;
+	width:25%;
+	background:url(../../img/company/table_th_bg.gif) left top;
+	font-weight:bold;
+	text-align:left;
+}
+#company #container #second_block #summary th,
+#company #container #second_block #summary td,
+#company #container #third_block #history th,
+#company #container #third_block #history td{
+	padding:10px;
+	border-bottom:1px solid #0062b1;
+}
+
+
+#company #container #side_container{
+	width:239px;
+	position:relative;
+	z-index:1;
+}
+#company #container #side{
+	width:233px;
+	background-color:#fff;
+	padding:3px;
+}
+#company #container #side ul{
+	margin:0 0 -1px;
+}
+#company #container #side ul li{
+	margin:0 0 1px;
+}
+
+
+/* organization
+===================================================================*/
+#company #container #org_block .textbox_w681{
+	padding:42px 22px;
+	text-align:center;
+}
+#company #container .org_note{
+	color:#fff;
+	text-align:right;
+}
+
+
+/* map
+===================================================================*/
+#company #container #map_block .textbox_w681{
+	padding:43px 23px 22px 22px;
+	position:relative;
+}
+#company #container #map_block .textbox_w681 .data{
+	position:absolute;
+	top:22px;
+	left:22px;
+}
+#company #container #map_block .map_box{
+	padding:10px;
+	background:url(../../img/company/map_bg.gif) left top;
+}
+#company #container #map_block .map_box iframe{
+	margin:0 0 -3px;
+	padding:0;
+}
+

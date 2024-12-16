@@ -1,0 +1,40 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	about.css
+	
+===================================================================*/
+
+#about{
+}
+
+#about #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#about #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#about #container #main{
+	width:940px;
+}
+
+#about #container #first_text{
+	width:412px;
+	padding:40px;
+}
+
+#about #container #second_text_inner{
+	padding:40px;
+}
+#about #container #second_text_inner .text{
+	width:553px;
+}
+#about #container #second_text_inner .photo{
+	width:266px;
+}
+

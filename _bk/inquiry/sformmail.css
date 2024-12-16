@@ -1,0 +1,80 @@
+/* フォームメール用スタイルシート */
+
+body {
+	font-size: 12px;
+	line-height: 140%;
+}
+h1 {
+	font-size: 14px;
+	background: #99c;
+	color: #fff;
+	padding: 2px 2px 1px 5px;
+	border-left: 10px solid #448;
+	margin: 0px;
+}
+h2 {
+	font-size: 12px;
+	margin: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+p {
+	margin: 0px;
+	font-weight: normal;
+	padding-bottom: 5px;
+}
+div#MAINLAYOUT {
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 5px;
+	border: 1px solid #ccc;
+}
+div#FORM table {
+	border: 1px solid #ccc;
+}
+div#FORM {
+	margin: 10px auto 15px;
+}
+div#FORM .SmallType {
+	font-size: 10px;
+	font-weight: normal;
+	line-height: normal;
+}
+div#FORM form {
+	margin: 0px;
+}
+div#FORM td {
+	padding: 4px;
+	background: #f1f1f1;
+	width: 350px;
+}
+div#FORM th {
+	font-weight: bold;
+	text-align: left;
+	padding: 4px;
+	background-color: #e4e4e4;
+	vertical-align: top;
+}
+div#FORM .Submit {
+	background: #fff;
+	text-align: center;
+}
+.ERR {
+	color: #f00;
+}
+
+/* 著作権表記用 */
+div#Copyright {
+	text-align: right;
+	margin-top: 2px;
+	font-size: 10px;
+}
+div#Copyright a:link, div#Copyright a:visited {
+
+	color: #999999;
+	text-decoration: none;
+}
+div#Copyright a:hover {
+	text-decoration: underline;
+}

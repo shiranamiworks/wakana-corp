@@ -1,0 +1,30 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	staff.css
+	
+===================================================================*/
+
+#staff{
+}
+
+#staff #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#staff #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#staff #container #main{
+	width:940px;
+}
+
+#staff #container #staff_box{
+	width:856px;
+	margin:0 auto;
+	padding:40px 0;
+}

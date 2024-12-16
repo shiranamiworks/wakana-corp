@@ -1,0 +1,25 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	print.css
+	
+===================================================================*/
+
+#popup{
+	zoom:1;
+}
+
+/* ”ñ•\¦€–Ú */
+#popup #header,
+#popup.map #wrapper #page_title,
+#popup #wrapper #popup_util,
+#popup #footer{
+	display:none;
+}
+
+/* map */
+.map #adress{
+	color:#000;
+	margin:10px;
+}

@@ -1,0 +1,39 @@
+@charset "shift_jis";
+
+/*==================================================================
+	
+	media.css
+	
+===================================================================*/
+
+#media{
+}
+
+#media #ttl{
+	width:964px;
+	margin:0 auto 18px;
+}
+
+#media #container{
+	width:940px;
+	margin:0 auto;
+}
+
+#media #container #main{
+	width:940px;
+}
+
+#media #container .media_text{
+	width:681px;
+}
+#media #container .media_text p{
+	padding:20px;
+}
+#media #container .media_text .media_text_inner{
+	position:relative;
+}
+#media #container .media_text .media_text_inner .logo{
+	position:absolute;
+	top:20px;
+	right:22px;
+}

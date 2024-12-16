@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="ja">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html;charset=shift_jis">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="description" content="輸入車に特化し、カーセンサーエッジに代表される媒体を取扱う広告代理店の若菜企画">
+<meta http-equiv="keywords" content="エッジ　輸入車　輸入車雑誌　広告代理店">
+<link rel="shortcut icon" href="../favicon.ico">
+
+<title>リクルート独占代理店 - 若菜企画</title>
+
+<link rev="made" href="mailto:info@wakana-p.co.jp">
+<link rev="start" href="http://www.wakana-p.co.jp/">
+<link rel="stylesheet" type="text/css" href="../style.css" media="all">
+</head>
+
+<body>
+<div id="all">
+	<div id="header2">
+		<h1><a href="../index.html">株式会社若菜企画｜WAKANA PLANNING</a></h1>
+
+		<div id="menu">
+			<ul>
+				<li class="btn_home"><a href="../index.html">HOME</a></li>
+				<li class="btn01"><a href="../about.html">広告代理店について</a></li>
+				<li class="btn02"><a href="../baitai.html">主要媒体</a></li>
+				<li class="btn03"><a href="../company.html">会社概要</a></li>
+				<li class="btn04"><a href="../sosiki.html">組織図</a></li>
+				<li class="btn05"><a href="../kyoten.html">拠点情報</a></li>
+				<li class="btn06"><a href="inquiry.html">お問合せ</a></li>
+				<li class="btn07"><a href="http://ameblo.jp/wakana-p/" target="_blank">ブログ</a></li> 
+			</ul>
+		</div>
+	</div>
+	<div id="main">
+		<div id="main_box">
+			<h1 class="inquiry">お問い合せ</h1>
+
+						<!--メールフォーム用のHTMLタグはここから-->
+			<form id="mailform" method="post" action="mailform/send.cgi" onSubmit="return sendmail(this);">
+			<table class="gaiyou">
+				<tr>
+					<th>
+						お名前　<span class="hiisu">＊必須</span></th>
+					<td>
+						<input type="text" name="お名前(必須)" size="30" /></td>
+				</tr>
+					<th>
+						メールアドレス　<span class="hiisu">＊必須</span><br>（すべて半角英数でご入力下さい）</th>
+					<td>
+						<input type="text" name="email(必須)" size="50" maxlength="50" class="mf" /></td>
+				</tr>	<tr>
+						<th>確認用メールアドレス <span class="hiisu">＊必須</span></th>
+						<td><input type="text" name="confirm_email" size="50" class="mf" /></td>
+					</tr>
+				<tr>
+					<th>
+						お問い合せ内容　<span class="hiisu">＊必須</span><br>（出来るだけ詳しくお書き下さい）</th>
+					<td>
+						<textarea name="ご用件(必須)" rows="10" cols="70"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+					<br>
+					ご入力内容に間違いは有りませんか？　ご確認の上、[送信]ボタンを押してください。<br><br>
+                <input name="submit" type="submit" value="送信する" />
+								<input type="reset" name="reset" value="リセット" />					</td>
+				</tr>
+			</table>
+			</form>
+			<link rel="stylesheet" href="mailform/mailform.css" type="text/css">
+			<script type="text/javascript" src="usr/bin/mailform/mailform.js" charset="utf-8"></script>
+			<script type="text/javascript" src="usr/bin/mailform/postcodes/get.cgi?js" charset="utf-8"></script>
+			<!--ここまでコピー＆ペーストすればまず間違いないです-->
+			
+				<br><br><br><br><br><br><br><br>
+		</div>
+
+		<div id="footer-space"></div>
+	</div>
+</div>
+
+<div id="footer">
+
+		<div id="b_menu">
+			<ul>
+				<li class="btn_home"><a href="../index.html">HOME</a></li>
+				<li class="btn01"><a href="../about.html">広告代理店について</a></li>
+				<li class="btn02"><a href="../baitai.html">主要媒体</a></li>
+				<li class="btn03"><a href="../company.html">会社概要</a></li>
+				<li class="btn04"><a href="../sosiki.html">組織図</a></li>
+				<li class="btn05"><a href="../kyoten.html">拠点情報</a></li>
+				<li class="btn06"><a href="inquiry.html">お問合せ</a></li>
+				<li class="btn07"><a href="http://ameblo.jp/wakana-p/" target="_blank">ブログ</a></li> 
+			</ul>
+		</div>
+	<p class="copyright">Copyright(c)2008 WAKANA PLANNING All right reserved.</p>
+</div>
+
+</body>
+</html>
